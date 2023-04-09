@@ -36,7 +36,7 @@ const Application = () => {
   };
 
   return (
-    <main className="flex flex-col gap-8 p-8 mx-auto lg:max-w-4xl">
+    <main className="mx-auto flex flex-col gap-8 p-8 lg:max-w-4xl">
       <Header items={items} />
       <NewItem
         newItemName={newItemName}
